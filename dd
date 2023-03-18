@@ -2,31 +2,11 @@
 
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
 
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
-
 @import url(https://xhylo.github.io/WinBAcss/winbuttons.css);
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
-
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
-
-@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css);
-
-@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/hardcoded.css);
-
-@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/components/mentions.css);
-
-@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/components/reactions.css);
-
-@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/components/pfps.css);
-
-@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/components/folders.css);
-
-@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css);
-
-@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/components/userPopout.css);
 
 @import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/general/bd.css);
 
@@ -35,8 +15,6 @@
 @import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/general/svgs.css);
 
 @import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css);
-
-@import url(https://zuzumi-f.github.io/classic-discord-status/2016-status.css);
 
 @import url(https://lavender-discord.github.io/Lavender/modules/addons/colored-svgs.css);
 
