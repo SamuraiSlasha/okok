@@ -1,0 +1,513 @@
+/* Imports that make this better credits to them - paranormal*/
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+
+@import url(https://xhylo.github.io/WinBAcss/winbuttons.css);
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
+
+@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css);
+
+@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/hardcoded.css);
+
+@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/components/mentions.css);
+
+@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/components/reactions.css);
+
+@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/components/pfps.css);
+
+@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/components/folders.css);
+
+@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css);
+
+@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/components/userPopout.css);
+
+@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/general/bd.css);
+
+@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/general/inputs.css);
+
+@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/general/svgs.css);
+
+@import url(https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css);
+
+@import url(https://zuzumi-f.github.io/classic-discord-status/2016-status.css);
+
+@import url(https://lavender-discord.github.io/Lavender/modules/addons/colored-svgs.css);
+
+@import url(https://lavender-discord.github.io/IconsaxDiscord/icon-styles/icons-bold.css);
+
+@import url(https://lavender-discord.github.io/IconsaxDiscord/icon-styles/icons-linear.css); 
+
+@import url(https://lavender-discord.github.io/IconsaxDiscord/src/general.css);
+
+@import url(https://lavender-discord.github.io/IconsaxDiscord/src/others.css);
+
+@import url(https://lavender-discord.github.io/IconsaxDiscord/src/text-bar.css);
+
+@import url(https://lavender-discord.github.io/IconsaxDiscord/src/user-actions.css);
+
+/* The actual code lmaoooo - paranormal*/
+
+
+:root {	
+  --darkplus-bg: #212121;
+  --darkplus-bg2: #302f2f;
+  --darkplus-links: #cdaef3;				
+
+}
+
+
+
+[class*="jumpToPresentBar"] {
+    display: contents;
+}
+[class*="jumpToPresentBar"] > button:first-child {
+    display: none;
+}
+[class*="jumpToPresentBar"] > button:last-child {
+    position: absolute;
+    z-index: 1;
+    bottom: 24px;
+    right: 22px;
+    padding: 8px !important;
+    height: auto;
+    background-color: #000000;
+    box-shadow: var(--elevation-high);
+    border-radius: 100px;
+    display: flex;
+    font-size: 0px;
+    color: transparent;
+    transition: font-size .2s .1s, color .2s, padding .4s .1s;
+}
+[class*="jumpToPresentBar"] > button svg {
+    order: -1;
+    margin: 0px;
+    height: 24px;
+    width: 24px;
+    top: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #FFFFFF;
+    transition: margin .6s;
+}
+[class*="jumpToPresentBar"]:hover > button {
+    padding: 8px 18px !important;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: font-size .2s, color .2s .1s, padding .4s;
+}
+[class*="jumpToPresentBar"]:hover > button svg {
+    margin-right: 2px;
+    margin-left: -6px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-20deg);
+    }
+    70% {
+        transform: rotate(380deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+.bd-toast {
+    background-color: var(--background-tertiary) !important;
+    border-radius: 32px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    padding: 16px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
+
+.bd-toast.toast-success.icon {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjEuMjg0ODUgMy40NjkyNCAyMS44MzYzNTAwMDAwMDAwMDMgMTcuNjUyMTYwMDAwMDAwMDAyIj4KICA8cGF0aCBkPSJNOS4wMDA0MyAxNC4wNDkyTDE5LjU5MDQgMy40NjkyNEwyMy4xMjEyIDcuMDAwMDZMOC45OTk5MyAyMS4xMjE0TDEuMjg0ODUgMTMuNDA2M0w0LjgzMzY3IDkuODgyNDhMOS4wMDA0MyAxNC4wNDkyWiIgZmlsbD0iIzNCQTU1QyIvPgo8L3N2Zz4=") !important;
+}
+
+.bd-toast.icon {
+    padding-left: 30px !important;
+}
+
+.bd-toast.toast-danger.icon,
+.bd-toast.toast-error.icon {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjcgMTAgNiA2Ij4KICA8cGF0aCBkPSJNIDEyIDEwIEwgMTMgMTEgTCAxMSAxMyBMIDEzIDE1IEwgMTIgMTYgTCAxMCAxNCBMIDggMTYgTCA3IDE1IEwgOSAxMyBMIDcgMTEgTCA4IDEwIEwgMTAgMTIgWiIgZmlsbD0iI2YwNDc0NyIvPgo8L3N2Zz4=") !important;
+    padding-left: 35px !important;
+}
+
+.toast-1DEQGy,
+.toast-q3Y4wI {
+    background: #43b581 !important;
+    transform: translateY(10px);
+    padding: 6px 10px 6px 10px !important;
+    border-radius: 5px;
+    box-shadow: var(--elevation-medium), var(--elevation-stroke);
+    font-weight: 500;
+    color: var(--header-primary);
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.toast-1DEQGy .icon-q80NJC > path,
+.toast-q3Y4wI .icon-2QUmmw > path {
+    d: none !important;
+}
+
+.toast-1DEQGy .icon-q80NJC,
+.toast-q3Y4wI .icon-2QUmmw {
+    height: 20px !important;
+    width: 20px !important;
+    margin-top: 0 !important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptLTIgMTVsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz48L3N2Zz4=);
+    background-size: 20px 20px;
+}
+
+
+.connectedAccountIcon-3_EQqg ~ div::before {
+    content: "";
+    top: 0; bottom: 0; left: 0; right: 0;
+    border: 1px solid var(--border-color);
+    position: absolute;
+    display: block;
+    pointer-events: none;
+}
+
+.connectedAccount-2Jb-Z0 {
+    overflow: hidden;
+    position: relative;
+}
+
+.role-2irmRk{
+    background: transparent;
+    border: 1px solid;
+    border-radius: 11px;
+  }
+  .roleCircle-3xAZ1j {
+    margin-right: 0;
+  }
+  .addButtonIcon-1NMJ8u {
+      width: 10px;
+      height: 10px;
+  }
+
+#private-channels [href="/discovery"] {display: none}
+
+.userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k {
+  background: var(--background-secondary);
+  padding: 0;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] {
+  width: 250px !important;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .popoutBanner-3cqRD9, .userPopout-2j1gM4[style^="width: 300px;"] .popoutBannerPremium-3i5EEI {
+  width: 250px;
+  height: 100px;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .popoutBanner-3cqRD9:not(.popoutBannerPremium-3i5EEI) {
+  opacity: 0;
+  pointer-events: none;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .popoutBannerPremium-3i5EEI {
+  margin-bottom: 70px;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .profileBadges-2pItdR {
+  display: none;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .warningCircleIcon-mFju_m {
+  display: none;
+}
+.userPopout-2j1gM4[style^="width: 800px;"] .avatarPositionPremium-1zPBq9 {
+  margin-top: 300px;
+}
+.theme-light .userPopout-2j1gM4[style^="width: 200px;"] .username-3JLfHz {
+  color: #fff;
+}
+.theme-dark .userPopout-2j1gM4[style^="width: 300px;"] .body-2wLx-E, .theme-dark .userPopout-2j1gM4[style^="width: 300px;"] .footer-1N3bR3 {
+  background-color: var(--background-secondary);
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .headerTop-3GPUSF {
+  background-image: url("");
+  background-size: 300px 220px;
+  background-color: var(--blurple);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .aboutMeSection-PUghFQ {
+  padding: 50px;
+  margin-bottom: 0;
+  border-top: none;
+  background: var(--blurple);
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .aboutMeSection-PUghFQ .betaBadge-gLO70A {
+  background: var(--blurple) !important;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .aboutMeSection-PUghFQ .aboutMeTitle-3pjiS7 {
+  color: #fff;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz {
+  color: #fffb;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz.clamped-IwJfxR {
+  -webkit-line-clamp: 10;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz a {
+  color: #fff;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .activity-1gTu-L {
+  margin: 0;
+  padding: 16px;
+  border-bottom: none;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .activity-1gTu-L .lookFilled-yCfaCM.colorGrey-2iAG-B:hover, .userPopout-2j1gM4[style^="width: 300px;"] .activity-1gTu-L .lookFilled-yCfaCM.colorGrey-2iAG-B:active {
+  border-color: #fff;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .activity-1gTu-L > .buttonsWrapper-2ARRp1 > .lookOutlined-3yKVGo.colorWhite-1H92hK {
+  color: var(--green);
+  border-color: #43B58188;
+}
+.userPopout-2j1gM4[style^="width: 500px;"] .activity-1gTu-L > .buttonsWrapper-2ARRp1 > .lookOutlined-3yKVGo.colorWhite-1H92hK:hover {
+  border-color: #43B581;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .nickname-t08Mck {
+  font-size: 16px;
+  color: #fff;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .headerText-1-WmDq {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+.userPopout-2j1gM4[style^="width: 300px;"] .headerText-1-WmDq .headerTag-3GXZkV {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+.userPopout-2j1gM4[style^="width: 100px;"] .headerText-1-WmDq .headerTagUsernameNoNickname-1TjuLc, .userPopout-2j1gM4[style^="width: 100px;"] .headerText-1-WmDq .headerTagNoNickname-3tGHj6 {
+  font-size: 20px;
+  overflow: visible;
+}
+.role-2TIOKu{
+  background: transparent;
+  border: 1px solid;
+  border-radius: 11px;
+}
+.roleCircle-3xAZ1j {
+  margin-left: 0;
+}
+#private-channels-1, #private-channels-2 {
+  display: none
+}
+
+.assetsLargeImageSpotify-17ME3M {
+  animation: spin 3s linear infinite;
+  border-radius: 50%
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.userPopout-2j1gM4 .footer-3naVBw{
+    display: none;
+}
+
+
+.rolesList-3uZoaa, .headerTextNormal-2mGWX3, .customStatus-oN4ZZY, .aboutMeTitle-3pjiS7,
+.text-3j8t_e > *,.nameTag-2Nlmsy > * {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-height: 600px;
+  max-width: 900px;
+  transform: translateY(-9px);
+  transform: translate(-12px);
+  
+}
+.customStatus-3XAoF9 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tabBarContainer-sCZC4w {
+  align-items:center;
+  display:flex;
+  justify-content:center;
+}
+.profileBadges-2pItdR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 100px;
+  transform: translateY(-8px);
+  position: absolute;
+  transform: translate(-250px);
+}
+
+.headerTop-3GPUSF, .rolesList-3uZoaa, .headerTextNormal-2mGWX3, .customStatus-oN4ZZY, .aboutMeTitle-3pjiS7,
+.text-3j8t_e > *,.nameTag-2Nlmsy > * {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.avatarWrapperNormal-ahVUaC {
+  position: absolute;
+  left: 31%;
+}
+.avatar-3QF_VA {
+  position:absolute;
+  left:36%;
+}
+.profileBadges-2pItdR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 100px;
+  transform: translateY(-5px);
+  transform: translate(-50px);
+}
+.badgeList-2aoHPw {
+  display:flex;
+  flex-direction:column;
+  max-height:210px;
+}
+.tabBarContainer-sCZC4w {
+  align-items:center;
+  display:flex;
+  justify-content:center;
+}
+
+.role-2irmRk {
+  border: none;
+  background-color: var(--background-tertiary);
+  border-radius: 3px;
+  padding: 6px;
+  height: 24px;
+}
+
+#app-mount .actionButton-VzECiy {
+  color: var(--interactive-normal);
+  border: 1px solid var(--background-modifier-accent);
+}
+
+#app-mount .actionButton-VzECiy:active {
+  background-color: var(--background-modifier-active);
+  color: var(--interactive-active);
+}
+
+.layer-3QrUeG {
+  transform: none !important;
+  opacity: 1 !important;
+}
+
+.avatar-2e8lTP.clickable-31pE3P {
+  filter: drop-shadow(0 0 5px);
+  color: var(--darkplus-sec);
+}
+.avatar-2e8lTP:hover.clickable-31pE3P:hover {
+  filter: drop-shadow(0 0 8px);
+  color: var(--darkplus-sec);
+  transform: scale(1.2) rotate(360deg); 
+  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+}
+
+.avatarWrapper-24Rbpj {
+  height: 120px !important;
+  width: 120px !important;
+}
+
+.fullscreenOnMobile-ixj0e3 .assetsLargeImageSpotify-17ME3M {
+  animation: spin 20s linear infinite;
+  border-radius: 6000%;
+  border-radius: 6000%;
+  box-sizing: border-box;
+  padding-top: 90px;
+  background-size: cover;
+  background-image: url(https://media.discordapp.net/attachments/973093375823736875/981396027041005609/Spotify_logo_without_text.svg.png);
+}
+.userPopout-2j1gM4 .assetsLargeImageSpotify-17ME3M{
+  animation: spin 20s linear infinite;
+  border-radius: 6000%;
+  border-radius: 6000%;
+  box-sizing: border-box;
+  padding-top: 60px;
+  background-size: cover;
+  background-image: url(https://media.discordapp.net/attachments/973093375823736875/981396027041005609/Spotify_logo_without_text.svg.png);
+}
+@keyframes spin {
+  from {transform: rotate(0);}
+  to {transform: rotate(380deg);}
+}
+.scrollableContainer-15eg7h 
+{
+    border-radius: 25px;
+}
+
+.attachedBars-2BCP3l, .replyBar-1oi75v
+{
+    border-radius: 20px !important;
+}
+
+.scroller-kQBbkU 
+{
+    background:transparent;
+    margin-bottom: -100px;
+    padding-bottom: 100px;
+}
+
+.form-3gdLxP:before 
+{
+    display: none;
+}
+
+.channelTextArea-1FufC0
+{
+    background: transparent !important;
+}
+
+.scrollableContainer-15eg7h
+{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    -webkit-backdrop-filter: blur(3px);
+    -o-backdrop-filter: blur(3px);
+    -moz-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    filter: drop-shadow(0rem 0rem 0.5rem rgba(0, 0, 0, 0.2));
+}
+
+.typing-2J1mQU {
+  bottom: 98.5%;
+  border-radius: 30px;
+  margin-bottom: 3px;
+  max-width: 97.6%;
+  background-color: #36393F;
+}
+.cooldownWrapper-2k1jHK{
+  position: relative;
+  right: 1%;
+}
+.scrollerSpacer-3AqkT9{
+  height: 40px;
+}
+
+
